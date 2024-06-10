@@ -15,3 +15,25 @@ csvfile.info
 
 #2. Visualisation du jeu de données :
 
+#Pour un graphique à Secteur (avec des données fictives) :
+labels = ['Phishing', 'Légitime']
+sizes = [150, 850]  # Exemples de données
+
+# Création du graphique à secteurs
+plt.figure(figsize=(8, 8))
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['#ff9999','#66b3ff'])
+plt.title('Proportions des différentes classes d\'emails')
+plt.axis('equal')  # Assure que le pie chart est dessiné comme un cercle.
+plt.show()
+
+#Pour un graphique en barre (moins utile dans le cas présent) : 
+labels = ['Phishing', 'Légitime']
+sizes = [150, 850]  # Exemples de données
+
+# Création du graphique à barres
+plt.figure(figsize=(8, 6))
+plt.bar(labels, sizes, color=['#ff9999','#66b3ff'])
+plt.title('Proportions des différentes classes d\'emails')
+plt.xlabel('Classe')
+plt.ylabel('Nombre d\'emails')
+plt.show()
