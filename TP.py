@@ -15,5 +15,4 @@ csvfile.info
 # Info = 
 
 
-
 #2. Visualisation du jeu de données :
