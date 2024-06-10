@@ -8,10 +8,6 @@ csvfile.head(5)
 
 csvfile.info
 
-#Questions guidantes :
-# • Comment importer un fichier CSV en Python ?
-# • Quelles informations peut-on obtenir avec les méthodes head() et info() de pandas ?
-
 # Head = Les première ligne du tableau tout dépend du chiffre entre parenthèse
 # Info = 
 
