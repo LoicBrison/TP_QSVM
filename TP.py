@@ -10,7 +10,7 @@ csvfile.head(5)
 csvfile.info
 
 # Head = Les première ligne du tableau tout dépend du chiffre entre parenthèse
-# Info = 
+# Info = Information (champs, données, etc)
 
 
 #2. Visualisation du jeu de données :
