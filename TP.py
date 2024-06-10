@@ -17,7 +17,7 @@ csvfile.info
 
 #Pour un graphique à Secteur (avec des données fictives) :
 labels = ['Phishing', 'Légitime']
-sizes = [150, 850]  # Exemples de données
+sizes = [150, 850]
 
 # Création du graphique à secteurs
 plt.figure(figsize=(8, 8))
@@ -28,7 +28,7 @@ plt.show()
 
 #Pour un graphique en barre (moins utile dans le cas présent) : 
 labels = ['Phishing', 'Légitime']
-sizes = [150, 850]  # Exemples de données
+sizes = [150, 850]
 
 # Création du graphique à barres
 plt.figure(figsize=(8, 6))
@@ -37,3 +37,7 @@ plt.title('Proportions des différentes classes d\'emails')
 plt.xlabel('Classe')
 plt.ylabel('Nombre d\'emails')
 plt.show()
+
+
+#3. Analyse statistique :
+print(csvfile.describe())
