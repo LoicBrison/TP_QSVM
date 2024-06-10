@@ -41,3 +41,12 @@ plt.show()
 
 #3. Analyse statistique :
 print(csvfile.describe())
+print(csvfile['email_text'].describe())
+
+#Caractéristique Spécifique 
+# Nombre de mots dans chaque email
+csvfile['word_count'] = csvfile['email_text'].apply(lambda x: len(x.split()))
+
+# Statistiques descriptives pour le nombre de mots
+print(csvfile['word_count'].describe())
+
